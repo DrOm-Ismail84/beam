@@ -11,10 +11,6 @@ st.header("Deflection of Cantilever Beam Edge Loading")
 
 st.sidebar.header('User Input Parameters')
 
-image = Image.open("beam1.png")
-st.subheader('Dimensional Parameters')
-st.image(image, caption='Figure 1: Cantilever beam with load at the edge')
-
 def user_input_features():
     edge_load = st.sidebar.slider('P (N)', min_value=850, max_value=1150, step=20)
     span_length = st.sidebar.slider('L (mm)', min_value=850, max_value=1150, step=20)
