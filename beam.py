@@ -12,11 +12,6 @@ st.header("Deflection of Cantilever Beam Edge Loading")
 
 st.sidebar.header('User Input Parameters')
 
-gallery_files = glob(os.path.join(".", "images", "*"))
-gallery_dict = {image_path.split("/")[-1].split(".")[-2].replace("-", " "): image_path
-    for image_path in gallery_files}
-
-st.image("beam1.png")
 
 def user_input_features():
     edge_load = st.sidebar.slider('P (N)', min_value=850, max_value=1150, step=20)
