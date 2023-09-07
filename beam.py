@@ -10,7 +10,8 @@ from glob import glob
 
 st.header("Deflection of Cantilever Beam Edge Loading")
 
-htp="https://github.com/DrOm-Ismail84/beam/blob/main/beamcantilever.png"
+image = Image.open('C:\\Users\\91865\\Desktop\\beamcantilever.jpg') 
+st.image(image)
 st.image(htp, caption= 'logo', width=350)
 
 st.sidebar.header('User Input Parameters')
