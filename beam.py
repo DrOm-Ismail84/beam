@@ -10,7 +10,7 @@ from glob import glob
 
 st.header("Deflection of Cantilever Beam Edge Loading")
 
-htp="https://raw.githubusercontent.com/djswoosh/Music-Recommendation-Engine-using-FMA-Dataset/main/1200px-The_Echo_Nest_logo.svg.png"
+htp="https://ars.els-cdn.com/content/image/1-s2.0-S0263822308000688-gr4.jpg"
 st.image(htp, caption= 'logo', width=350)
 
 st.sidebar.header('User Input Parameters')
